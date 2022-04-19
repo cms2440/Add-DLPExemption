@@ -1,4 +1,3 @@
-CLASSIFICATION: UNCLASSIFIED
 Remove-Variable domain,addusers,addcomputers -EA silentlycontinue
 
 #since we're creating accounts across domains, we need an account that can make accounts in all domain
@@ -494,4 +493,3 @@ If ($AddUsers -ne $false) {
 $strArray | clip
 Write-Host "Remedy notes copied to clipboard"
 read-host -Prompt "Script Finished.  Press Enter to close window."
-CLASSIFICATION: UNCLASSIFIED
